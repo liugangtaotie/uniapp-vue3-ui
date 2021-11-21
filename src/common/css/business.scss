@@ -1,0 +1,155 @@
+@import "./common.scss";
+
+/* 非公用，自定义 */
+
+/* 颜色 */
+.color-primary {
+  color: $color-green;
+}
+
+.bg-color-primary {
+  background-color: $color-green;
+}
+
+.bg-color-container {
+  background-color: $color-bg;
+}
+
+.bg-color-white {
+  background-color: $color-white;
+}
+
+.color-disable {
+  color: $color-disable;
+}
+
+.color-warning {
+  color: $color-orange;
+}
+
+.color-white {
+  color: $color-white;
+}
+
+.bg-color-warning {
+  background-color: $color-orange;
+}
+
+.color-error {
+  color: $color-error;
+}
+
+.bg-color-error {
+  background-color: $color-error;
+}
+
+.color-666 {
+  color: #666;
+}
+
+.color-grey {
+  color: #999;
+}
+
+.p0-5 {
+  padding: 0 10rpx;
+}
+.p0-15 {
+  padding: 0 30rpx;
+}
+.p2-0 {
+  padding: 4rpx 0;
+}
+.p4-0 {
+  padding: 8rpx 0;
+}
+.pd5-0 {
+  padding: 10rpx 0;
+}
+.p8-0 {
+  padding: 16rpx 0;
+}
+.p10-0 {
+  padding: 20rpx 0;
+}
+.pd15-0 {
+  padding: 30rpx 0;
+}
+.p2-5 {
+  padding: 4rpx 10rpx;
+}
+.p2-10 {
+  padding: 4rpx 20rpx;
+}
+.p2-15 {
+  padding: 4rpx 30rpx;
+}
+.p4-10 {
+  padding: 8rpx 20rpx;
+}
+.p5-15 {
+  padding: 10rpx 30rpx;
+}
+.p8-15 {
+  padding: 16rpx 30rpx;
+}
+.p10-15 {
+  padding: 20rpx 30rpx;
+}
+.pd15-15 {
+  padding: 30rpx 30rpx;
+}
+
+/* 页面 */
+.empty-data {
+  height: 250rpx;
+  line-height: 250rpx;
+  color: #666;
+  text-align: center;
+}
+
+/* 按钮 */
+.button-primary {
+  height: 92rpx;
+  font-size: 36rpx;
+  line-height: 92rpx;
+  color: #fff;
+  text-align: center;
+  background-color: #34b264;
+  border-radius: 10rpx;
+}
+
+// 默认input样式右对齐
+.van-field__input {
+  text-align: right;
+}
+
+.login-button {
+  margin: 100rpx 60rpx 0;
+}
+
+.color-price {
+  color: #f35e0d;
+}
+
+.gray-filter {
+  filter: grayscale(1);
+}
+
+.fixed-bottom {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-top: 2rpx solid #f5f5f5;
+}
+
+.no-data {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 28rpx;
+  color: #928f8a;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
