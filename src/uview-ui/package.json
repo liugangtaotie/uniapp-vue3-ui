@@ -1,5 +1,5 @@
 {
-  "name": "@bsoft/uniapp-vue3-ui",
+  "name": "@common/uniapp-vue3-ui",
   "version": "1.1.3",
   "description": "bs公共组件库(vue3.x)",
   "main": "index.js",
@@ -36,6 +36,6 @@
     "node-sass": "^4.14.0",
     "sass-loader": "^8.0.2"
   },
-  "author": "liugang2@bsoft.com.cn",
+  "author": "liugang2@common.com.cn",
   "license": "MIT"
 }

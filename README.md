@@ -1,5 +1,5 @@
 <p align="center">
-    <img alt="logo" src="https://jkt.bsoft.com.cn/hcn-web/mini_images/images/bsoft.png" width="120" height="120" style="margin-bottom: 10px;">
+    <img alt="logo" src="./src/common/img/buddha.jpeg" width="120" height="120" style="margin-bottom: 10px;">
 </p>
 <h3 align="center" style="margin: 30px 0 30px;font-weight: bold;font-size:40px;">uniapp-vue3-ui</h3>
 <h3 align="center">多平台快速开发的UI框架</h3>
@@ -21,16 +21,16 @@
 
 ```bash
 # npm方式安装
-npm i @bsoft/uniapp-vue3-ui
+npm i @common/uniapp-vue3-ui
 ```
 
 ## 快速上手
 
-1. `main.ts`引入@bsoft/uniapp-vue3-ui库
+1. `main.ts`引入@common/uniapp-vue3-ui库
 
 ```js
 // main.ts
-import bsCommonUI from '@bsoft/uniapp-vue3-ui';
+import bsCommonUI from '@common/uniapp-vue3-ui';
 Vue.use(bsCommonUI);
 ```
 
@@ -38,14 +38,14 @@ Vue.use(bsCommonUI);
 ```css
 /* App.vue */
 <style scoped lang="scss">
-@import "@bsoft/uniapp-vue3-ui/index.scss";
+@import "@common/uniapp-vue3-ui/index.scss";
 </style>
 ```
 
 3. `uni.scss`引入全局scss变量文件
 ```css
 /* uni.scss */
-@import "@bsoft/uniapp-vue3-ui/theme.scss";
+@import "@common/uniapp-vue3-ui/theme.scss";
 ```
 
 4. `pages.json`配置easycom规则(按需引入)
@@ -56,9 +56,9 @@ Vue.use(bsCommonUI);
  "easycom": {
   // npm安装的方式不需要前面的"@/"，下载安装的方式需要"@/"
   // npm安装方式
-  "^u-(.*)": "@bsoft/uniapp-vue3-ui/components/u-$1/u-$1.vue"
+  "^u-(.*)": "@common/uniapp-vue3-ui/components/u-$1/u-$1.vue"
   // 下载安装方式
-  // "^u-(.*)": "@/@bsoft/uniapp-vue3-ui/components/u-$1/u-$1.vue"
+  // "^u-(.*)": "@/@common/uniapp-vue3-ui/components/u-$1/u-$1.vue"
  },
  // 此为本身已有的内容
  "pages": [
@@ -104,4 +104,4 @@ uView文档和源码全部开源免费，如果您认为uView帮到了您的开�
 
 ## 版权信息
 
-@bsoft/uniapp-vue3-ui遵循[MIT](https://en.wikipedia.org/wiki/MIT_License)开源协议，意味着您无需支付任何费用，也无需授权，即可将bsCommonUI应用到您的产品中。
+@common/uniapp-vue3-ui遵循[MIT](https://en.wikipedia.org/wiki/MIT_License)开源协议，意味着您无需支付任何费用，也无需授权，即可将bsCommonUI应用到您的产品中。
