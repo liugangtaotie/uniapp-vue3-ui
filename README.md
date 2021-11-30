@@ -6,7 +6,7 @@
 
 ## 说明
 
-基于 vue3.x的bs common UI next，是[uni-app](https://uniapp.dcloud.io/)生态优秀的UI框架，全面的组件和便捷的工具会让您信手拈来，如鱼得水
+基于 vue3.x的common UI next，是[uni-app](https://uniapp.dcloud.io/)生态优秀的UI框架，全面的组件和便捷的工具会让您信手拈来，如鱼得水
 
 ## 特性
 

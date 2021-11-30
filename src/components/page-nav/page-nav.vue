@@ -1,13 +1,9 @@
 <template>
   <view class="nav-wrap">
     <view class="nav-title">
-      <image
-        class="logo"
-        src="https://jkt.bsoft.com.cn/hcn-web/mini_images/images/bsoft.png"
-        mode="widthFix"
-      ></image>
+      <image class="logo" src="src/common/img/buddha.jpeg" mode="widthFix"></image>
       <view class="nav-info">
-        <view class="nav-title__text"> bs common UI next</view>
+        <view class="nav-title__text"> common UI next</view>
         <view class="nav-slogan"> 多平台快速开发的UI框架（基于vue3） </view>
       </view>
     </view>
